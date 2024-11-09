@@ -241,7 +241,9 @@ onMounted( ()=>{
     <div>
       <div class="avatar flex flex-col gap-2 items-center">
         <div class="ring-primary ring-offset-base-100 w-10 rounded-full ring ring-offset-2">
-          <img :src="userData.gender === 'Male' ? '/public/maleicon.jpg' : '/public/girlicon.jpg'" />
+          <img :src="userData.gender === 'Male' ? '/frontend/dist/maleicon.jpg' : '/frontend/dist/girlicon.jpg'" />
+         
+         
          
         </div>
         <p class="text-white text-sm">{{ userData.name }}</p>
