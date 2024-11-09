@@ -75,7 +75,7 @@ onMounted(async () => {
                 <div class="flex items-center gap-2">
                   <div class="avatar">
                     <div class="w-10 rounded-full">
-                      <img :src="users.gender === 'Male' ? '/public/maleicon.jpg' : '/public/girlicon.jpg'" />
+                      <img :src="users.gender === 'Male' ? '/frontend/dist/maleicon.jpg' : '/frontend/dist/girlicon.jpg'" />
                     </div>
                   </div>
                   <div>
